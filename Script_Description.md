@@ -31,7 +31,15 @@ Enter a folder path, once you have entered it, the script will then go through a
 ## NewHasher.ps1
 A file hashing utility, provide a folder path (for example C:\windows\) and it will go through the folder and any subfolders, hashing any files inside. Uses get-filehash and gets MD5 (insecure), SHA1 (insecure) and SHA256
 
-## Speedtest
+## SelectRandomMusic.ps1
+
+This script does the following:
+
+1. enter a number and a location, the number refers to how many songs you want to use and the location refers to where your songs are (For example: C:\users\Admin\Music)
+2. After entering the infomation, it will write down the music to a text file.
+3. it will then ask you if you want to copy the music to a folder you provide, if you want to, provide a folder location, if not, it will close the script.
+
+## Speedtest.ps1
 
 A few weeks ago, i was having network issues on my PC, i thought it was my router, but it turns out it was the cables, anyway, this script allows you to use speedtest-cli (Windows version) to run a speed test. it then writes to a text file showing the results. for best usage, alter the script server list located at the top of the script to lservers more close to your location.
 # Python
